@@ -17,6 +17,7 @@ const routes = [
 ]
 
 const router = new VueRouter({
+    base: '/Interview-Copilot-main/', // Adjust base to match publicPath
     routes
 })
 
